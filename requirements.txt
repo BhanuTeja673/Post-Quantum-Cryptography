@@ -1,0 +1,18 @@
+pip install qiskit
+pip install numpy
+pip install matplotlib
+
+NOTES:
+1. To use circuit.draw("mpl")
+pip install pylatexenc
+
+2. To use IBM backend
+pip install qiskit-ibm-runtime
+Create account on https://quantum.ibm.com/
+Copy API Token from dashboard
+QiskitRuntimeService.save_account(channel="ibm_cloud", token="MY_IBM_CLOUD_API_KEY", instance="MY_IBM_CLOUD_CRN")
+
+3. To use AER simulator
+pip install qiskit-aer
+
+4. pip install kaleidoscope (for visualisation in quantum simualtioon as a search notebook)
